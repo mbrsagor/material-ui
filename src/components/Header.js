@@ -30,9 +30,15 @@ export default function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            News
+            I'm Sagor
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">Python</Button>
+          <Button color="inherit">Django</Button>
+          <Button color="inherit">Flask</Button>
+          <Button color="inherit">JavaScript</Button>
+          <Button color="inherit">TypeScript</Button>
+          <Button color="inherit">React.JS</Button>
+          <Button color="inherit">Node.JS</Button>
         </Toolbar>
       </AppBar>
     </div>
