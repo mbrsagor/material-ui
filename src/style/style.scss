@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body {
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+}
+
+$primay_color: #253053;
+
+.side_menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 320px;
+    height: 100%;
+    background: $primay_color;
+}
