@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import TextField from '@material-ui/core/TextField';
 import '../style/style.scss';
 import SideMenu from '../components/SideMenu';
+import Header from '../components/Header';
 
 class App extends Component {
   
@@ -9,6 +9,7 @@ class App extends Component {
     return (
       <>
         <SideMenu />
+        <Header />
       </>
     );
   }
