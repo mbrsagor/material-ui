@@ -40,15 +40,18 @@ const App = () => {
               {mycards.map(card =>(
                   <Grid xs={12} sm={6} md={4} key={card} item>
                   <Card className={classes.cusomGrid}>
-                    <CardMedia 
-                        image="https://source.unsplash.com/random"
-                        title="Image name"
-                     />
+                    <CardMedia
+                      className={classes.cardMedia}
+                      image="https://source.unsplash.com/random"
+                      title="Image title"
+                    />
                      <CardContent>
-                     <Typography variant="h4" align="center" color="textPrimary" gutterBottom>Photo Albam</Typography>
-                     <Typography variant="h6" align="center" color="textSecondary" gutterBottom>
-              Globally communicate real-time testing procedures before plug-and-play strategic.
-              </Typography>
+                     <Typography gutterBottom variant="h5" component="h2">
+                      Heading
+                    </Typography>
+                    <Typography>
+                      This is a media card. You can use this section to describe the content.
+                    </Typography>
                      </CardContent>
                   </Card>
                 </Grid>
